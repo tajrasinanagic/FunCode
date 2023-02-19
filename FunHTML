@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>Hiiiiii</title>
+<style>
+p {
+text-align: center;
+font-size: 32px;
+font-family: Candara, Oswald;
+}
+img {
+display: block;
+margin: 0 auto;
+width: 25%;
+}
+</style>
+</head>
+<body>
+<p>Do you think Tajra is cute?</p>
+<img src="https://media1.giphy.com/media/3ndAvMC5LFPNMCzq7m/giphy.gif?cid=ecf05e47i8v47xjn3vgwylo8pprrp31al3pv7ds14cvq6zvx&rid=giphy.gif&ct=g">
+</body>
+<title>Botões</title>
+<style>
+#botao1 {
+position: fixed;
+top: 68%;
+left: 65%;
+transform: translate(-50%, -50%);
+}
+#botao2 {
+position: absolute;
+ left: 28%;
+  top: 66%;
+}
+</style>
+</head>
+<body>
+<button id="botao1">OFC BISH!</button>
+<button id="botao2">FUCK NO</button>
+<script>
+const button2 = document.getElementById('botao2');
+let left = 40;
+button2.addEventListener('mouseover', function() {
+  if(left == 40){
+    left = 44;
+  }else{
+    left = 40;
+  }
+  this.style.left = left + '%';
+});
+
+</script>
+<script>document.getElementById('botao1').addEventListener('click', function() {
+alert('SIKEEE! YOU A SIMP NOW :)');
+});
+</script>
+</body>
+</html>
